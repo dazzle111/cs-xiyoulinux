@@ -26,10 +26,10 @@ $time = date('Y-m-d H:i');
 
 $smtpserver = "smtp.exmail.qq.com";
 $smtpserverport = 25;
-$smtpusermail = "fatty_liao@xiyoulinux.org";
+$smtpusermail = "";
 $smtpemailto = $userinfo['mail'];
-$smtpuser = "fatty_liao@xiyoulinux.org";
-$smtppass = "Niangnan1022";
+$smtpuser = "";
+$smtppass = "";
 
 $mailsubject = "找回密码";
 $mailbody =  "亲爱的".$name."：\n\n您在".$time."提交了找回密码请求。请点击下面的链接重置密码
